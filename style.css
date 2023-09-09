@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 13, 10);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+/* get the downloaded font*/
+@font-face {
+    font-family: Digital7;
+    src: url(digital-7.ttf);
+}
+
+.clock{
+    margin-top: 45vh;
+    font-family: Digital7;
+    color: rgb(2, 173, 5);
+    font-size: 24vh;
+}
+
+/* make it responsive*/
+@media (max-width: 768px){
+    .clock{
+        font-size: 10vw;
+    }
+}
